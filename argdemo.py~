@@ -1,0 +1,9 @@
+#/usr/bin/env python
+
+import optparse
+
+if __name__=='__main__':
+    p = optparse.OptionParser()
+    options, arguments = p.parse_args()
+    print arguments
+    exit(0)

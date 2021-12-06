@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/joe/Programming/Python/OPR_Checker/prcheck.py", line 525, in <module>
+    while os.path.splitext(pr_file)[1]!= '.xfdl':
+  File "/usr/lib/python2.5/posixpath.py", line 92, in splitext
+    i = p.rfind('.')
+AttributeError: 'tuple' object has no attribute 'rfind'
